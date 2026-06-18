@@ -3,6 +3,7 @@ agent any
 tools{
 gradle 'gradle'
 jdk 'jdk'
+}
 stages{
 stage('checkout'){
     steps{
